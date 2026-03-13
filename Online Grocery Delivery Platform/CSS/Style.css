@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  border-top: 1px solid #faf7f7;
+  border-bottom: 1px solid #faf7f7;
+}
+.headerLeft {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  padding: 24px 30px;
+  border-right: 1px solid #faf7f7;
+}
+.headerAddress {
+  padding: 20px 30px;
+}
+.headerAddress h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.headerAddress p {
+  font-size: 14px;
+}
+
+.searchBox {
+  flex-grow: 1;
+  border: 1px solid #f4f4f4;
+  background-color: #f8f8f8;
+  display: flex;
+  border-radius: 15px;
+}
+.searchBox button {
+  padding: 15px;
+  border: none;
+  background-color: transparent;
+}
+.searchBox input {
+  flex-grow: 1;
+  border: none;
+  background-color: transparent;
+}
+.searchBox input:focus {
+  outline: none;
+}
+.headerBtn {
+  display: flex;
+  gap: 40px;
+  margin-right: 40px;
+}
+.headerBtn button {
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+}
+.headerBtn button:last-child {
+  background-color: rgb(12, 131, 31);
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Banner Section */
+
+.bannerSection {
+  margin: auto;
+  max-width: 1280px;
+}
+.bannerSection img {
+  width: 100%;
+}
+.orderBanner {
+  display: flex;
+  max-width: 1280px;
+  margin: auto;
+}
+.orderBannerItems {
+  flex-basis: 27%;
+  margin: 1%;
+}
+.orderBannerItems img {
+  width: 100%;
+}
+.CategorySection {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.categoryItems {
+  flex-basis: 10%;
+}
+.categoryItems img {
+  width: 100%;
+}
+
+/* Product-Section */
+
+.productSection {
+  max-width: 1280px;
+  margin: auto;
+  /* padding: 30px 0px 0px 0px; */
+}
+.headingRow h2 {
+  font-size: 22px;
+  padding-bottom: 8px;
+}
+.headingRow a {
+  color: #328839;
+  font-size: 18px;
+}
+.productRow {
+  width: 100%;
+  margin: 30px 0px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+.productItems {
+  flex-basis: 15%;
+  box-shadow: 0px 0px 10px 2px #e1d6d6;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  border: 1px solid #ccc;
+}
+.productImg {
+  text-align: center;
+  padding: 15px;
+}
+.productImg p {
+  background-color: #f8f8f8;
+  display: flex;
+  gap: 5px;
+  width: 60px;
+  padding: 2px;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  text-align: left;
+}
+
+.productContent {
+  padding: 15px;
+  padding-top: 0px;
+}
+.productContent h3 {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.productContent p {
+  font-size: 14px;
+  color: #848080;
+}
+.btn-price-outer {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-price-outer button {
+  border: 1px solid #328839;
+  padding: 5px 15px;
+  border-radius: 7px;
+  background-color: #f7fff9;
+}
+
+/* Footer-Section */
+
+footer {
+  padding: 40px 0px 0px 0px;
+}
+.footer-mid {
+  max-width: 1280px;
+  margin: auto;
+}
+.footer-mid-row1 {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+}
+.footer-mid-row1-left {
+  flex-basis: 30%;
+}
+.footer-mid-row1-left h3 {
+  margin-bottom: 20px;
+}
+.usefullinks {
+  display: flex;
+}
+.usefullinks ul {
+  flex-basis: 33%;
+  list-style: none;
+}
+.usefullinks ul li a {
+  font-size: 15px;
+  display: block;
+  color: rgb(102, 102, 102);
+  margin-bottom: 10px;
+}
+.footer-mid-row1-right {
+  flex-basis: 70%;
+}
+.CategoriesHeadingRow {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 15px;
+  align-items: center;
+}
+.FooterLinks__List {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 10px;
+  margin-top: 40px;
+}
+.FooterLinks__List li {
+  flex-basis: 30%;
+}
+.FooterLinks__List li a {
+  font-size: 15px;
+  display: block;
+  color: rgb(102, 102, 102);
+  margin-bottom: 8px;
+}
+.footer-mid-row3 p {
+  padding: 20px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(102, 102, 102);
+}
+.footer-mid-row2 {
+  background-color: #fcfcfc;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+}
+.footer-mid-row2 p {
+  flex-basis: 40%;
+  font-size: 14px;
+  text-align: center;
+}
+.appIcons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-basis: 30%;
+}
+.socialIcons {
+  display: flex;
+  gap: 10px;
+}
+.socialIcons i {
+  width: 40px;
+  height: 40px;
+  color: white;
+  background-color: #1f1f1f;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
